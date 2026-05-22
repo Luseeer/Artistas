@@ -1,0 +1,272 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;}
+
+:root {font-size: 16px;}
+
+body {background-color: #161616;}
+
+
+/*HEADER*/
+
+header {display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.4rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 0.0625rem;}
+
+header nav a {
+          padding: 0.4rem;
+          border-bottom: transparent solid 0rem ;
+          transition: 0.2s ease-in;
+          /*text-shadow: 0.0625rem 0.0625rem 0.1rem white;*/}
+
+header nav a:hover{border-bottom: #cfd0dd solid 0.1rem;}
+
+.Logo {width: 30vw;}
+
+a     {color: rgb(255, 255, 255);
+       text-decoration: none;
+       font-size: 1rem;}
+
+/*GENERAL*/
+.in {background-image: url(drive-download-20260507T104045Z-3-001/Fotos/rachel-coyne-U7HLzMO4SIY-unsplash.jpg);
+      background-size: cover;}
+/*HERO*/
+
+.HERO {display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
+       padding-top: 2rem;
+       padding-bottom: 1rem;}
+
+.HERO p {color: #ffffff;
+         font-size: 0.75rem;}
+
+
+/*INFO*/
+
+.Info {display: flex;
+       flex-direction: column;
+       margin: 0rem 1rem 0rem 1rem;}
+
+.Info h2 {font-size: 2rem;
+          padding-bottom: 0.5rem;
+          align-self: center;}
+
+.Info p {font-size: 0.90rem;
+         color: #ffffff;
+         align-self: center;}
+
+
+/*CARTEL*/
+
+.Cartel {height: 50vh;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;}
+
+.Cartel p {display: flex;
+           justify-self: center;
+           align-self: center;
+           font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-size: 3rem;
+           color: #16145c;
+           text-shadow: 0.0625rem 0.0625rem 0.1rem white;
+           display: none;}
+         
+.ROCK {/*background-image: url(drive-download-20260507T104045Z-3-001/Fotos/rachel-coyne-U7HLzMO4SIY-unsplash.jpg);*/
+         width: 100%;
+         height: 100%;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         justify-content: center;
+         align-self: center;}
+
+
+/*FOOTER*/
+
+footer {display: flex;
+        justify-content: space-between;
+        padding-top: 0.3rem;
+        background-color: #060533;}
+
+footer p {color: #ffffff;
+          font-size: 0.75rem;
+          padding: 0.75rem;}
+
+
+
+
+
+
+
+
+/*ARTISTAS.HTML*/
+
+.rejilla {display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 1rem;
+          background-color: white;}
+
+.Artista {display:flex;
+          flex-direction: column;
+          width: 20rem;
+          background-color: #161616;
+          border-radius: 0.25rem;
+          border: solid #252525 0.4rem;
+          margin: 1rem 0rem 1rem 0rem;
+          height: 35rem;}
+
+
+.Artista img {width: 14rem;
+              align-self: center;
+              justify-self: center;
+              border-radius: 0.25rem;
+              margin-top: 1rem;}
+.Artista h3 {align-self: center;
+             justify-self:center;
+             padding-top: 1.4rem;
+             padding-bottom: 1.4rem;
+             font-size: 1.2rem;}
+.Artista p {align-self: center;
+             justify-self:center;
+             padding-bottom: 1.4rem;
+             font-size: 0.8rem;
+             padding: 0rem 2.3rem 1rem 2.3rem;}
+
+
+
+
+
+
+/*CONTACTO.HTML*/
+
+.Contacto {display: flex;
+           flex-direction: column;
+           align-items: center;
+           gap: 1rem;
+           padding-bottom: 1rem;
+           padding-top: 1.5rem;
+           background-color: #171646;}
+
+.Contacto p {font-size: 0.8rem;
+             color: #ffffff;
+             text-align: center;}
+
+.Contacto h2 {font-size: 1.5rem;
+             color: #ffffff;}
+
+.Formulario {background-color: #171646;
+             width: 100%;
+             margin: auto;
+             padding: 3rem;}
+
+.Formulario form {display: flex;
+                  flex-direction: column;
+                  color: #ffffff;}
+
+.Formulario label {color: #ffffff;
+                   font-size: 0.8rem;}
+.Formulario input {margin-top: 0.4rem;
+                   margin-bottom: 0.8rem;
+                   padding: 0.4rem;
+                   border-radius: 0.25rem;
+                   background-color: #171646;
+                   border-top: solid #171646;
+                   border-left: solid #171646;
+                   border-right: solid #171646;
+                   border-bottom: solid white 0.1rem;}
+.Formulario select {margin-top: 0.4rem;
+                   margin-bottom: 0.8rem;
+                   padding: 0.4rem;
+                   border-radius: 0.25rem;
+                   border: none;
+                   background-color: #171646;
+                   border-bottom: solid white 0.1rem;}
+.Formulario select option {color: #ffffff;}
+.Formulario textarea {margin-top: 0.4rem;
+                      margin-bottom: 0.8rem;
+                      padding: 0.4rem;
+                      border-radius: 0.25rem;
+                      border: none;
+                      background-color: #171646;
+                      border-bottom: solid white 0.1rem;}                   
+.Formulario button {background-color: black;
+                    color: #f2f2f2;
+                    padding: 0.5rem;
+                    margin-top: 1rem;
+                    border: none;
+                    width: 3.3rem;
+                    border-radius: 1rem;
+                    cursor: pointer;}
+.Formulario button {align-self: flex-end;}
+
+
+
+
+@media (min-width: 700px) 
+
+{
+       
+       /*index*/
+       header {display: flex;
+               flex-direction: row;
+               justify-content:space-between;
+               border-bottom: none;}
+
+       .Logo {width: 5rem;
+              justify-content: flex-start;
+              margin-left: 2rem;}
+
+       header a {font-size: 1.2rem;
+                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+       
+       .HERO p {color: rgb(255, 255, 255);
+                font-size: 1.1rem;}
+
+       .Info p {color: rgb(255, 255, 255);
+                font-size: 1.2rem;}
+
+       .nav {margin-right: 4rem;}
+       header nav {margin-right: 4rem;}
+
+       .ROCK {display: none;}
+
+
+       footer {background-color: transparent;
+               border-top: none;
+               margin-top: none;}
+       
+       footer p {color: white;}
+
+       .General {background-image: url(drive-download-20260507T104045Z-3-001/Fotos/rachel-coyne-U7HLzMO4SIY-unsplash.jpg);
+                 background-size: cover;}
+
+       .in {background-image: none;}
+
+       /*contacto*/
+       .Contacto h2 {font-size: 1.7rem;}
+       .Contacto p {font-size: 1.1rem;}
+       .Formulario label {margin-top: 1rem;
+                          margin-bottom: 1rem;}
+       .Formulario button {font-size: 1rem;
+                           width: 5rem;}
+
+       /*artistas*/
+       .rejilla {display:flex;
+                 flex-direction: row;
+                 flex-wrap: wrap;}
+}
+
+
+      
